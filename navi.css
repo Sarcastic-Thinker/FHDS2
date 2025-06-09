@@ -20,7 +20,8 @@ body{
 }
 .tabs img{
     float: left !important; 
-    margin: auto;  
+    margin: auto; 
+    border-radius: 50%; 
 }
 .tabs{
       position: fixed;
@@ -28,7 +29,7 @@ body{
       left    : 0;
       z-index : 500;
       width   : 100%;
-      height  : 150px;
+      height  : 60px;
       background-color: rgb(13, 50, 170);
 }
 .tabs a{
