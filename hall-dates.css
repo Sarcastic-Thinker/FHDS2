@@ -1,0 +1,74 @@
+#aum {
+      margin-top: 55px;
+      text-align: center;
+}
+
+/*==calender==*/
+.calender {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 65px;
+      padding: 10px 40px;
+      width: 75%;
+      border-collapse: collapse;
+      color: #fff;
+      border: deeppink;
+      border-width: 5em;
+      text-align: center;
+}
+.calmonth {
+      text-align: center;
+      background-color: bisque;
+      color: rgb(66, 22, 107);
+      font-family: serif;
+      padding: 5px;
+      width: 15vw;
+      font-weight: bolder;
+}
+.caldays {
+      text-align: center;
+      padding: 5px;
+      color: rgb(66, 22, 107);
+      background-color: rgb(253, 232, 206);
+      font-weight: bolder;
+}
+.caldateopen {
+      text-align: center;
+      padding: 5px;
+      color: rgb(66, 22, 107);
+      background-color: rgb(253, 232, 206);
+}
+.caldatetaken {
+      text-align: center;
+      padding: 5px;
+      color: rgb(245, 163, 163);
+      background-color: rgb(240, 29, 29);
+}
+h3 {
+      text-align: center;
+      color: firebrick;
+}
+h4 {
+      text-align: center;
+      color: rgb(179, 48, 48);
+}
+.sidebar{
+      text-align: center;
+      padding: 5px;
+      margin: auto;
+      color: rgb(97, 0, 100) !important;
+}
+.button{
+      display : block;
+      width: 15%;
+      background-color: rgb(204, 93, 238);
+      text-decoration : none;
+      text-align  : center;
+      color       : rgb(17, 14, 0);
+      font-size   : 16px;
+      font-weight : 50;
+      margin : 12px 12px;
+      padding : 8px 8px;
+      border-radius: 25px;
+      float: right;
+}

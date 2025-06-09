@@ -1,0 +1,36 @@
+.table1 {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 65px;
+      padding: 10px 40px;
+      width: 75%;
+      border-collapse: collapse;
+      color: #fff;
+      border: deeppink;
+      border-width: 5em;
+      text-align: center;
+}
+.tableheader {
+      text-align: center;
+      background-color: bisque;
+      color: black;
+      font-family: serif;
+      padding: 5px;
+      width: 15vw;
+}
+.tableinput {
+      text-align: left;
+      padding: 5px;
+      color: rgb(66, 22, 107);
+      background-color: rgb(253, 232, 206);
+}
+#aum {
+      text-align: center;
+}
+h1 {
+      margin-bottom: 55px;
+      text-align: center;
+      font-style: italic;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: fuchsia;
+}
