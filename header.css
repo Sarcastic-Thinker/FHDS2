@@ -68,7 +68,7 @@ body{
   padding: 14px 16px;
   background-color: inherit;
   font-family: Helvetica;
-  font-weight : 700;
+  /*font-weight : 700;*/
   margin: 0;
 }
 
@@ -134,7 +134,7 @@ body{
     text-align: right;
   }
 }
-
+ 
 /*main image*/
 .topPic {
   padding: 10px 10px;
