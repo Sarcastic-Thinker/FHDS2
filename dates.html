@@ -68,17 +68,19 @@ function myFunction() {
 </script>
 
 <div id="aum">
-        <img src="png/aum purple.png" width="15%"/>
+        <img src="png/aum purple.png" width="5%"/>
     </div>
     <div >
         <h4 class="sidebar">For Bookings Please Contact 1 of our amazing agents</h4>
     </div>
-    <br><br>
+    <br>
     <h3>Please note that dates that are Unavailable are shaded in Red.</h3>
     <h4>Availablity of dates are subjected to change</h4>
+    <h4>Please select a month to view available dates</h4>
     <br>
+    
     <!--june-->
-    <table class="calender" border="1">
+    <table class="calender" id="june25" border="1">
         <tr>
             <td class="calmonth" colspan="7">JUNE 2025</td>
         </tr>
@@ -137,8 +139,10 @@ function myFunction() {
             <td class="caldateopen"></td>
         </tr>
     </table>
+    <button class="button"  onclick="showAndHide(tableContainer1)">June</button>
+
     <!--july-->
-    <table class="calender" border="1">
+    <table class="calender" id="july25" border="1">
         <tr>
             <td class="calmonth" colspan="7">JULY 2025</td>
         </tr>
@@ -202,8 +206,10 @@ function myFunction() {
             
         </tr>
     </table>
+        <button class="button" onclick="showAndHide(tableContainer2)">July</button>
+
     <!--august-->
-    <table class="calender" border="1">
+    <table class="calender" id="aug25" border="1">
         <tr>
             <td class="calmonth" colspan="7">AUGUST 2025</td>
         </tr>
@@ -274,8 +280,10 @@ function myFunction() {
             <td class="caldateopen"></td>
         </tr>
     </table>
+         <button class="button"  onclick="showAndHide(tableContainer3)">August</button>
+
     <!--SEPTEMBER-->
-    <table class="calender" border="1">
+    <table class="calender" id="sept25" border="1">
         <tr>
             <td class="calmonth" colspan="7">SEPTEMBER 2025</td>
         </tr>
@@ -339,8 +347,10 @@ function myFunction() {
             
         </tr>
     </table>
+        <button class="button" onclick="showAndHide(tableContainer4)">September</button>
+
     <!--october-->
-    <table class="calender" border="1">
+    <table class="calender" id="oct25" border="1">
         <tr>
             <td class="calmonth" colspan="7">OCTOBER 2025</td>
         </tr>
@@ -399,8 +409,10 @@ function myFunction() {
             <td class="caldateopen"></td>
         </tr>
     </table>
+        <button class="button" onclick="showAndHide(tableContainer5)">October</button>
+
     <!--november-->
-    <table class="calender" border="1">
+    <table class="calender" id="nov25" border="1">
         <tr>
             <td class="calmonth" colspan="7">NOVEMBER 2025</td>
         </tr>
@@ -468,8 +480,10 @@ function myFunction() {
             <td class="caldateopen"></td>
         </tr>
     </table>
+        <button class="button" onclick="showAndHide(tableContainer6)">November</button>
+
     <!--DECEMBER-->
-    <table class="calender" border="1">
+    <table class="calender" id="dec25" border="1">
         <tr>
             <td class="calmonth" colspan="7">DECEMBER 2025</td>
         </tr>
@@ -533,7 +547,10 @@ function myFunction() {
             
         </tr>
     </table>
+        <button class="button" onclick="showAndHide(tableContainer7)">December</button>
 
+
+    <script src="hideAndShow.js"></script>
 
 </body>
 </html>

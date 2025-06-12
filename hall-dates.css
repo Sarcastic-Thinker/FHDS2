@@ -1,5 +1,5 @@
 #aum {
-      margin-top: 55px;
+      margin-top: 5px;
       text-align: center;
 }
 
@@ -9,7 +9,7 @@
       margin-right: auto;
       margin-bottom: 65px;
       padding: 10px 40px;
-      width: 75%;
+      width: 20%;
       border-collapse: collapse;
       color: #fff;
       border: deeppink;
@@ -59,9 +59,9 @@ h4 {
       color: rgb(97, 0, 100) !important;
 }
 .button{
-      display : block;
-      width: 15%;
-      background-color: rgb(204, 93, 238);
+ 
+      width: 10%;
+      background-color: rgba(204, 93, 238, 0.753);
       text-decoration : none;
       text-align  : center;
       color       : rgb(17, 14, 0);
@@ -70,5 +70,13 @@ h4 {
       margin : 12px 12px;
       padding : 8px 8px;
       border-radius: 25px;
-      float: right;
+      position: relative;
+      margin-bottom: 40px;
+}
+.button:hover {background-color: #32d6e2}
+
+.button:active {
+  background-color: #4cb4b8;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
