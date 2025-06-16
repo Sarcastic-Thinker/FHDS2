@@ -93,3 +93,13 @@
     text-decoration: underline;
 }
 
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: linear-gradient(135deg, rgb(229, 253, 14) 0%, rgb(51, 255, 0) 100%);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    padding: 15px;
+    text-align: center;
+}
