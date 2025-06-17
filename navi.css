@@ -10,7 +10,7 @@ body{
      background-position: center;
 .head {
     text-decoration : none;
-      width           : 100%;
+      width           : device-width;
       height          : 150px;
       display         : block;
       margin          : auto;

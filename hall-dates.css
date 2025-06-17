@@ -102,3 +102,9 @@ h4 {
       font-family: fantasy;
       color: #070707;
 }
+
+.months{
+      width: 750px;
+      align-items: center;
+      text-align: center;
+}
