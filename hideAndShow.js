@@ -13,7 +13,7 @@ let isClicked5 = true;
 let isClicked6 = true;
 let isClicked7 = true;
 
-const showAndHide = function(table){
+let showAndHide = function(table){
     if(table == tableContainer1){
         if(isClicked1){
             table.style.display = 'table';

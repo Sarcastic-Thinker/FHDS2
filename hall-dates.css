@@ -1,3 +1,5 @@
+
+
 #aum {
       margin-top: 5px;
       text-align: center;
@@ -60,7 +62,7 @@ h4 {
 }
 .button{
  
-      width: 10%;
+      width: 100;
       background-color: rgba(204, 93, 238, 0.753);
       text-decoration : none;
       text-align  : center;
@@ -79,4 +81,24 @@ h4 {
   background-color: #4cb4b8;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: linear-gradient(135deg, rgb(253, 14, 201) 0%, rgb(255, 0, 34) 100%);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.content {
+    padding: 30px;
+}
+
+.tbhead{
+      text-align: center;
+      font-size: larger;
+      font-family: fantasy;
+      color: #070707;
 }
