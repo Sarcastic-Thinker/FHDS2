@@ -9,63 +9,49 @@
 
 </head>
 <body>
-    
-      <!----header---->
-    <div class="head">
-        
-        <div class="tabs" id="myTabs">
-            <img src="img/fhds logo.png" width="150px" height="150px">
-            <a href="contact.html">CONTACT US</a>
-            <div class="dropdown">
-                <button class="dropbtn">HISTORY
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="Est.html">Establish</a>
-                    <a href="milestone.html">MileStones</a>
-                    <a href="events.html">Events</a>
-                    <a href="hall.html">Hall</a>
-                    <a href="gallery.html">Gallery</a>
+    <main>
+        <header>
+            <!-- Simulate a smartphone / tablet -->
+            <div class="mobile-container">
+                <!-- Top Navigation Menu -->
+                <div class="topnav">
+                    
+                    <a href="index.html" class="active"><img class="logo" src="img/fhds logo.png" width="90px"><h1>Foresthaven Hindu Dharma Sabha</h1></a>
+                    <div id="myLinks">
+                        <a href="Est.html"><img class="stamp" src="png/temple1.png" width="40px">History</a>
+                        <a href="prayer-dates.html"><img class="stamp" src="png/temple2.png" width="40px">Upcoming Prayers</a>
+                        <a href="hall.html"><img class="stamp" src="png/temple.png" width="40px">FHDS Hall</a>
+                        <a href="gallery.html"><img class="stamp" src="png/three-trishul.png" width="40px">Gallery</a>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"><img src="png/aum gold.png" width="25px">&#8628 &#8628</i>
+                    </a>
                 </div>
+            <!-- End smartphone / tablet look -->
             </div>
-            <div class="dropdown">
-                <button class="dropbtn">HALL
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="cost.html">Costing</a>
-                    <a href="dates.html">Available Dates</a>
-                    <a href="agents.html">Agents</a>
-                </div>
-            </div>
-             <a href="prayer-dates.html">UPCOMING PRAYERS</a>
-              <div class="dropdown">
-                <button class="dropbtn">ABOUT US
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="mission.html">Mission</a>
-                    <a href="team.html">The Team</a>
 
-                </div>
-            </div>
-            <a href="index.html" class="active">HOME</a>
-            <a href="javascript:void(0);" style="font-size: 15px;" class="icon"
-            onclick="myFunction()">&#9776;</a>
+            <script>
+            function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+            }
+            </script>
+        </header>
+    </main>
+    <!--media links-->
+    <div class="contacts">
+        <div class="contactsimg">
+            <h5>Clink The Links And Follow Us!!!</h5>
+            <a href="https://www.tiktok.com/@jsr_fhds" target="_blank"><img src="png/tiktok logo.png"  width="10%"/></a>
+            <a href="https://www.facebook.com/share/1JHaLHh9P1/" target="_blank"><img src="png/fb logo.png"  width="15%"/></a>
+            <a href="#"><img src="png/youtube logo.png"  width="15%"/></a>
         </div>
     </div>
-
-    <!----Javascript---->
-    <script>
-function myFunction() {
-  var x = document.getElementById("myTabs");
-  if (x.className === "tabs") {
-    x.className += " responsive";
-  } else {
-    x.className = "tabs";
-  }
-}
-</script>
+    <br><br><br>
 
 <table class="table1" border="1">
             <tr>

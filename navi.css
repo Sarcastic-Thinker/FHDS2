@@ -266,3 +266,27 @@
  position: absolute;
 }
 
+.contacts{
+      background-color : rgba(255, 255, 255, 0.15) ;
+      width   : 90%;
+      display : block;
+      margin  : auto;
+      margin-top : 45px;
+      padding    : 10px;
+      margin-bottom: 45px;
+}
+.contactsimg {
+      text-align: center;
+}
+.contactsimg img{
+     border-radius: 50%;
+}
+.contactsinfo {
+      color: rgb(9, 21, 133);
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      padding: 8px 8px;
+}
+.topimg {
+      text-align: center;
+}

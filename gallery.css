@@ -1,3 +1,9 @@
+body {
+ font-family: Arial, Helvetica, sans-serif;
+  background-image:url(png/colorful-background.jpg);
+  background-position: 100%;
+}
+
 /*==picture formatting==*/
 * {box-sizing:border-box}
 
@@ -74,7 +80,7 @@
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #c4595954;
 }
 
 /* Fading animation */
@@ -102,4 +108,18 @@
     overflow: hidden;
     padding: 15px;
     text-align: center;
+}
+
+@media screen and (max-width:500px) {
+  .container{
+    width: auto;
+    margin: 0 auto;
+    background: linear-gradient(135deg, rgb(229, 253, 14) 0%, rgb(51, 255, 0) 100%);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    padding: 15px;
+    text-align: center;
+  }
+  
 }
