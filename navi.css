@@ -123,7 +123,7 @@
   }
 }
 
-
+/*-----new top nav-------*/
 .header {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -194,7 +194,7 @@
 }
     .mobile-container {
   margin: auto;
-  background-color: #4611d896;
+  background-color: #4611d831;
  
   color: white;
   border-radius: 10px;
@@ -203,7 +203,7 @@
 
 .topnav {
   overflow: hidden;
-  background-color: rgb(78, 173, 236);
+  background-color: rgba(78, 173, 236, 0.199);
   position: relative;
 }
 
@@ -219,7 +219,7 @@
   display: block;
   font-size: large;
   font-family: fantasy;
-  text-align: center;
+  text-align: left;
 }
 
 .topnav a.icon {
@@ -233,12 +233,12 @@
 }
 
 .topnav a:hover {
-  background-color: #f1fa44;
+  background-color: #f1fa445d;
   color: black;
 }
 
 .active {
-  background-color: #6ae9cdb0;
+  background-color: #6ae9ce38;
   color: rgba(243, 76, 76, 0.637);
   text-align: center;
   width: 100%;
