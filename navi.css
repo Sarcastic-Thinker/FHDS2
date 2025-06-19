@@ -1,13 +1,4 @@
-body{
-     padding    : 0;
-     margin     : 0;
-     font-family: Helvetica;
-      margin-top: 45px;
-     background-image: url(png/colorful-background.jpg);
-     height: 100%;
-     background-repeat: no-repeat;
-     background-size: cover;
-     background-position: center;
+
 .head {
     text-decoration : none;
       width           : device-width;
@@ -130,4 +121,148 @@ body{
     width: 100%;
     text-align: right;
   }
-}}
+}
+
+
+.header {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mobile-container {
+  max-width: 100%;
+  margin: auto;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #b44f4f;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: rgb(48, 151, 219);
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  font-size: large;
+  font-family: fantasy;
+}
+
+.topnav a.icon {
+  background: rgba(226, 79, 231, 0.541);
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-radius: 50%;
+  margin: 5px 5px;
+}
+
+.topnav a:hover {
+  background-color: #f1fa44;
+  color: black;
+}
+
+.active {
+  background-color: #b44f4f;
+  color: rgba(243, 76, 76, 0.637);
+  text-align: center;
+  font-size: larger;
+ 
+}
+.topnav img {
+    border-radius: 50%;
+    display: block;
+    background-size: auto;
+    position: relative;
+ 
+}
+
+@media screen {
+    .header {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image:url(png/colorful-background.jpg);
+  background-position: 100%;
+}
+    .mobile-container {
+  margin: auto;
+  background-color: #4611d896;
+ 
+  color: white;
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(78, 173, 236);
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: rgb(38, 15, 250);
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  font-size: large;
+  font-family: fantasy;
+  text-align: center;
+}
+
+.topnav a.icon {
+  background: rgba(226, 79, 231, 0.541);
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-radius: 50%;
+  margin: 5px 5px;
+}
+
+.topnav a:hover {
+  background-color: #f1fa44;
+  color: black;
+}
+
+.active {
+  background-color: #6ae9cdb0;
+  color: rgba(243, 76, 76, 0.637);
+  text-align: center;
+  width: 100%;
+ 
+}
+.topnav img {
+    border-radius: 50%;
+    display: block;
+    background-size: auto;
+    position: relative;
+ 
+}   
+    
+}
+@media screen and (max-width:480px) {
+    .active{
+    font-size: 28px;
+    width: 100%;
+    } 
+}
+
+.stamp{
+  float: right ;
+  padding: auto;
+ position: absolute;
+}
+
