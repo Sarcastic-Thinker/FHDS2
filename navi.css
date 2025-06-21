@@ -21,7 +21,7 @@
       z-index : 500;
       width   : 100%;
       height  : 60px;
-      background-color: rgb(13, 50, 170);
+      background-color: rgb(13, 50, 170) !important;
 }
 .tabs a{
       float   : right;

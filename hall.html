@@ -41,49 +41,84 @@
             </script>
         </header>
     </main>
-     <!--media links-->
-    <div class="contacts">
-        <div class="contactsimg">
-            <h5>Clink The Links And Follow Us!!!</h5>
-            <a href="https://www.tiktok.com/@jsr_fhds" target="_blank"><img src="png/tiktok logo.png"  width="10%"/></a>
-            <a href="https://www.facebook.com/share/1JHaLHh9P1/" target="_blank"><img src="png/fb logo.png"  width="15%"/></a>
-            <a href="#"><img src="png/youtube logo.png"  width="15%"/></a>
-        </div>
-    </div>
 
-    <!--available dates-->
+    <!--hall info-->
+    <button type="button" class="collapsible">Welcome to FHDS Hall!</button>
+    <div class="content">
+        <p>Opened in May 2023, FHDS Hall is the brainchild of our visionary chairman, Kavir Gunpath. 
+            Designed with the community in mind, our hall offers an affordable and easily accessible 
+            venue for all your events. Whether it's a wedding, a conference, or a community gathering, 
+            FHDS Hall is here to make your special moments unforgettable. Come and experience the heart 
+            of our community at FHDS Hall! </p>
+    </div>    
+    <button type="button" class="collapsible">Packages</button>
+    <div class="content">
+        <p>•	Comfortable seating for up to 100 guests (120 max)</p>
+        <p>•	Air conditioning, tables, chairs, and industrial fans</p>
+        <p>•	Draped stage area and exquisite toilets with electric hand dryers</p>
+        <p>•	Fully-equipped kitchen with microwave and fridge</p>
+        <p>•	Jojo tank for water outages</p>
+        <p>•	Ample secure parking</p>
+        <p>•	Cutlery and crockery available at an extra charge</p>
+        <p>We ensure a single booking per day to provide you with the best service possible. The hall closes at 
+        11pm with no extensions.  Plus, our onsite hall manager will ensure your function runs smoothly.</p>
+    </div>
+    <button type="button" class="collapsible">Bookings</button>
+    <div class="content">
+        <p class="sidebar">	Direct Bookings: Kavir Gunpath at 083 789 7970</p>
+        <p class="sidebar">For full walk in and walk out packages, Please Contact 1
+         of our <a href="agents.html"> amazing agents</a></p>
+    </div>
+    <button type="button" class="collapsible">Load / Water Shedding</button>
+    <div class="content">
+        <p>In case of load shedding hall does have a back generator for 2 hours 
+            which is R500-00 additional cost </p>
+        <p>Hall also has a jojo tank in case of water cuts at no charge. Please note: the jojo tank will only 
+            be switched on when your function starts</p>
+    </div>
+    <button type="button" class="collapsible">Terms & Conditions</button>
+    <div class="content">
+        <p>Please note that FHDS and its owners are not liable for any loss or damage to any person or 
+            property, but we take every precaution to prevent any damage. We pride ourselves on delivering 
+            the best service to our customers.</p>
+    
+    </div>
+    <h2>Ready to book your next unforgettable event? Contact us now!</h2>
+    <h2>For more information or to view pictures of the hall, check out our 
+        gallery on our <a href="https://www.facebook.com/share/16oZS91jbq/?mibextid=wwXIfr" target="_blank">Facebook 
+            page.</a></h2>
+   
+     <!--available dates-->
     <div id="aum">
         <img src="png/aum purple.png" width="5%"/>
     </div>
-    <div >
-        <h4 class="sidebar">For Bookings and Costing, Please Contact 1 of our <a href="agents.html"> amazing agents</a></h4>
-    </div>
+    
     <br>
     <h3>Please note that dates that are Unavailable are shaded in <u>Red</u>.</h3>
     <h4>Availablity of dates are subjected to change</h4>
     <h4>Please select a month to view available dates</h4>
     <br>
     <!-- month buttons-->
-    <div class="container">
-        <div class="content">
+    <div class="container1">
+        <div class="contents">
             <table class="months">
                 <tr>
                     <td class="tbhead" colspan="3">2025</td>
                 </tr>
                 <tr>
-                    <td><button class="button"  onclick="showAndHide(tableContainer1)">June</button></td>
-                    <td><button class="button" onclick="showAndHide(tableContainer2)">July</button></td>
-                    <td><button class="button"  onclick="showAndHide(tableContainer3)">August</button></td>
+                    <td class="button"  onclick="showAndHide(tableContainer1)">June</td>
+                    <td class="button" onclick="showAndHide(tableContainer2)">July</td>
+                    <td class="button"  onclick="showAndHide(tableContainer3)">August</td>
                     
                    
                 </tr>
                 <tr>
-                    <td><button class="button" onclick="showAndHide(tableContainer4)">September</button></td>
-                    <td><button class="button" onclick="showAndHide(tableContainer5)">October</button></td>
-                    <td><button class="button" onclick="showAndHide(tableContainer6)">November</button></td>
+                    <td class="button" onclick="showAndHide(tableContainer4)">September</td>
+                    <td class="button" onclick="showAndHide(tableContainer5)">October</td>
+                    <td class="button" onclick="showAndHide(tableContainer6)">November</td>
                 </tr>
                 <tr>
-                     <td><button class="button" onclick="showAndHide(tableContainer7)">December</button></td>
+                     <td class="button" onclick="showAndHide(tableContainer7)">December</td>
                 </tr>
 
             </table>
@@ -129,7 +164,7 @@
             <td class="caldateopen">18</td>
             <td class="caldateopen">19</td>
             <td class="caldateopen">20</td>
-            <td class="caldateopen">21</td>
+            <td class="caldatetaken">21</td>
         </tr>
         <tr>
             <td class="caldateopen">22</td>
@@ -171,8 +206,8 @@
             <td class="caldateopen">1</td>
             <td class="caldateopen">2</td>
             <td class="caldateopen">3</td>
-            <td class="caldateopen">4</td>
-            <td class="caldateopen">5</td>
+            <td class="caldatetaken">4</td>
+            <td class="caldatetaken">5</td>
             
         </tr>
         <tr>
@@ -181,12 +216,12 @@
             <td class="caldateopen">8</td>
             <td class="caldateopen">9</td>
             <td class="caldateopen">10</td>
-            <td class="caldateopen">11</td>
-            <td class="caldateopen">12</td>
+            <td class="caldatetaken">11</td>
+            <td class="caldatetaken">12</td>
             
         </tr>
         <tr>
-            <td class="caldateopen">13</td>
+            <td class="caldatetaken">13</td>
             <td class="caldateopen">14</td>
             <td class="caldateopen">15</td>
             <td class="caldateopen">16</td>
@@ -247,7 +282,7 @@
             <td class="caldateopen">6</td>
             <td class="caldateopen">7</td>
             <td class="caldateopen">8</td>
-            <td class="caldateopen">9</td>
+            <td class="caldatetaken">9</td>
             
         </tr>
         <tr>
@@ -277,7 +312,7 @@
             <td class="caldateopen">27</td>
             <td class="caldateopen">28</td>
             <td class="caldateopen">29</td>
-            <td class="caldateopen">30</td>
+            <td class="caldatetaken">30</td>
         </tr>
         <tr>
             <td class="caldateopen">31</td>
@@ -311,7 +346,7 @@
             <td class="caldateopen">3</td>
             <td class="caldateopen">4</td>
             <td class="caldateopen">5</td>
-            <td class="caldateopen">6</td>
+            <td class="caldatetaken">6</td>
             
         </tr>
         <tr>
@@ -380,7 +415,7 @@
             <td class="caldateopen">4</td>
         </tr>
         <tr>
-            <td class="caldateopen">5</td>
+            <td class="caldatetaken">5</td>
             <td class="caldateopen">6</td>
             <td class="caldateopen">7</td>
             <td class="caldateopen">8</td>
@@ -438,7 +473,7 @@
             <td class="caldateopen"></td>
             <td class="caldateopen"></td>
             <td class="caldateopen"></td>
-            <td class="caldateopen">1</td>
+            <td class="caldatetaken">1</td>
         </tr>
         <tr>
             <td class="caldateopen">2</td>
@@ -456,7 +491,7 @@
             <td class="caldateopen">12</td>
             <td class="caldateopen">13</td>
             <td class="caldateopen">14</td>
-            <td class="caldateopen">15</td>
+            <td class="caldatetaken">15</td>
         </tr>
         <tr>
             <td class="caldateopen">16</td>
@@ -474,7 +509,7 @@
             <td class="caldateopen">26</td>
             <td class="caldateopen">27</td>
             <td class="caldateopen">28</td>
-            <td class="caldateopen">29</td>
+            <td class="caldatetaken">29</td>
         </tr>
         <tr>
             <td class="caldateopen">30</td>
@@ -505,10 +540,10 @@
             <td class="caldateopen"></td>
             <td class="caldateopen">1</td>
             <td class="caldateopen">2</td>
-            <td class="caldateopen">3</td>
+            <td class="caldatetaken">3</td>
             <td class="caldateopen">4</td>
             <td class="caldateopen">5</td>
-            <td class="caldateopen">6</td>
+            <td class="caldatetaken">6</td>
             
         </tr>
         <tr>
@@ -518,7 +553,7 @@
             <td class="caldateopen">10</td>
             <td class="caldateopen">11</td>
             <td class="caldateopen">12</td>
-            <td class="caldateopen">13</td>
+            <td class="caldatetaken">13</td>
             
         </tr>
         <tr>
@@ -537,7 +572,7 @@
             <td class="caldateopen">23</td>
             <td class="caldateopen">24</td>
             <td class="caldateopen">25</td>
-            <td class="caldateopen">26</td>
+            <td class="caldatetaken">26</td>
             <td class="caldateopen">27</td>
             
         </tr>
@@ -552,8 +587,832 @@
             
         </tr>
     </table>
+
+    <!--2026 calender-->
+    <!-- month buttons-->
+    <div class="container1">
+        <div class="contents">
+            <table class="months">
+                <tr>
+                    <td class="tbhead" colspan="3">2026</td>
+                </tr>
+                <tr>
+                    <td class="button"  onclick="showAndHide(tableContainer8)">January</td>
+                    <td class="button" onclick="showAndHide(tableContainer9)">February</td>
+                    <td class="button"  onclick="showAndHide(tableContainer10)">March</td>
+                    
+                   
+                </tr>
+                <tr>
+                    <td class="button" onclick="showAndHide(tableContainer11)">April</td>
+                    <td class="button" onclick="showAndHide(tableContainer12)">May</td>
+                    <td class="button" onclick="showAndHide(tableContainer13)">June</td>
+                </tr>
+                <tr>
+                     <td class="button" onclick="showAndHide(tableContainer14)">July</td>
+                    <td class="button" onclick="showAndHide(tableContainer15)">August</td>
+                    <td class="button" onclick="showAndHide(tableContainer16)">September</td>
+                </tr>
+                <tr>
+                     <td class="button" onclick="showAndHide(tableContainer17)">October</td>
+                    <td class="button" onclick="showAndHide(tableContainer18)">November</td>
+                    <td class="button" onclick="showAndHide(tableContainer19)">December</td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+    <!--months-->
+    <!--january-->
+    <table class="calender" id="jan26" border="1" hidden>
+        <tr>
+            <td class="calmonth" colspan="7">JANUARY 2026</td>
+        </tr>
+        <tr>
+            <td class="caldays">S</td>
+            <td class="caldays">M</td>
+            <td class="caldays">T</td>
+            <td class="caldays">W</td>
+            <td class="caldays">T</td>
+            <td class="caldays">F</td>
+            <td class="caldays">S</td>
+        </tr>
+        <tr>
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td>
+            <td class="caldatetaken">1</td>
+            <td class="caldatetaken">2</td>
+            <td class="caldateopen">3</td>
+        </tr>
+        <tr>
+            <td class="caldateopen">4</td>
+            <td class="caldateopen">5</td>
+            <td class="caldateopen">6</td>
+            <td class="caldateopen">7</td>
+            <td class="caldateopen">8</td>
+            <td class="caldateopen">9</td>
+            <td class="caldateopen">10</td>
+        </tr>
+        <tr>            
+            <td class="caldateopen">11</td>
+            <td class="caldateopen">12</td>
+            <td class="caldateopen">13</td>
+            <td class="caldateopen">14</td>
+            <td class="caldateopen">15</td>
+            <td class="caldateopen">16</td>
+            <td class="caldateopen">17</td>
+        </tr>
+        <tr>   
+            <td class="caldateopen">18</td>
+            <td class="caldateopen">19</td>
+            <td class="caldateopen">20</td>
+            <td class="caldateopen">21</td>
+            <td class="caldateopen">22</td>
+            <td class="caldateopen">23</td>
+            <td class="caldateopen">24</td>
+        </tr>
+        <tr>
+            <td class="caldateopen">25</td> 
+            <td class="caldateopen">26</td>
+            <td class="caldateopen">27</td>
+            <td class="caldateopen">28</td>
+            <td class="caldateopen">29</td>
+            <td class="caldateopen">30</td>
+            <td class="caldateopen">31</td>
+        </tr>
+       
+    </table>   
+    <!--february-->
+    <table class="calender" id="feb26" border="1" hidden>
+        <tr>
+            <td class="calmonth" colspan="7">FEBRUARY 2026</td>
+        </tr>
+        <tr>
+            <td class="caldays">S</td>
+            <td class="caldays">M</td>
+            <td class="caldays">T</td>
+            <td class="caldays">W</td>
+            <td class="caldays">T</td>
+            <td class="caldays">F</td>
+            <td class="caldays">S</td>
+        </tr>
+         <tr>
+            <td class="caldateopen">1</td> 
+            <td class="caldateopen">2</td>
+            <td class="caldateopen">3</td> 
+            <td class="caldateopen">4</td>
+            <td class="caldateopen">5</td>
+            <td class="caldateopen">6</td>
+            <td class="caldateopen">7</td>
+        </tr>
+         <tr>
+            <td class="caldateopen">8</td> 
+            <td class="caldateopen">9</td>
+            <td class="caldateopen">10</td> 
+            <td class="caldateopen">11</td>
+            <td class="caldateopen">12</td>
+            <td class="caldateopen">13</td>
+            <td class="caldateopen">14</td>
+        </tr>
+         <tr>
+            <td class="caldateopen">15</td> 
+            <td class="caldateopen">16</td>
+            <td class="caldateopen">17</td> 
+            <td class="caldateopen">18</td>
+            <td class="caldateopen">19</td>
+            <td class="caldateopen">20</td>
+            <td class="caldateopen">21</td>
+        </tr>
+         <tr>
+            <td class="caldateopen">22</td> 
+            <td class="caldateopen">23</td>
+            <td class="caldateopen">24</td> 
+            <td class="caldateopen">25</td>
+            <td class="caldateopen">26</td>
+            <td class="caldateopen">27</td>
+            <td class="caldateopen">28</td>
+        </tr>
+    </table>
+    <!--march-->
+    <table class="calender" id="mar26" border="1" hidden>
+        <tr>
+            <td class="calmonth" colspan="7">MARCH 2026</td>
+        </tr>
+        <tr>
+            <td class="caldays">S</td>
+            <td class="caldays">M</td>
+            <td class="caldays">T</td>
+            <td class="caldays">W</td>
+            <td class="caldays">T</td>
+            <td class="caldays">F</td>
+            <td class="caldays">S</td>
+        </tr>
+         <tr>
+            <td class="caldateopen">1</td> 
+            <td class="caldateopen">2</td>
+            <td class="caldateopen">3</td> 
+            <td class="caldateopen">4</td>
+            <td class="caldateopen">5</td>
+            <td class="caldateopen">6</td>
+            <td class="caldateopen">7</td>
+        </tr>
+         <tr>
+            <td class="caldateopen">8</td> 
+            <td class="caldateopen">9</td>
+            <td class="caldateopen">10</td> 
+            <td class="caldateopen">11</td>
+            <td class="caldateopen">12</td>
+            <td class="caldateopen">13</td>
+            <td class="caldateopen">14</td>
+        </tr>
+         <tr>
+            <td class="caldateopen">15</td> 
+            <td class="caldateopen">16</td>
+            <td class="caldateopen">17</td> 
+            <td class="caldateopen">18</td>
+            <td class="caldateopen">19</td>
+            <td class="caldateopen">20</td>
+            <td class="caldateopen">21</td>
+        </tr>
+         <tr>
+            <td class="caldateopen">22</td> 
+            <td class="caldateopen">23</td>
+            <td class="caldateopen">24</td> 
+            <td class="caldateopen">25</td>
+            <td class="caldateopen">26</td>
+            <td class="caldateopen">27</td>
+            <td class="caldateopen">28</td>
+        </tr>
+        <tr>
+            <td class="caldateopen">29</td> 
+            <td class="caldateopen">30</td>
+            <td class="caldateopen">31</td> 
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td>
+        </tr>
+    </table>
+    <!--april-->
+    <table class="calender" id="apr26" border="1" hidden>
+        <tr>
+            <td class="calmonth" colspan="7">APRIL 2026</td>
+        </tr>
+        <tr>
+            <td class="caldays">S</td>
+            <td class="caldays">M</td>
+            <td class="caldays">T</td>
+            <td class="caldays">W</td>
+            <td class="caldays">T</td>
+            <td class="caldays">F</td>
+            <td class="caldays">S</td>
+        </tr>
+         <tr> 
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td>
+            <td class="caldateopen">1</td> 
+            <td class="caldateopen">2</td>
+            <td class="caldateopen">3</td> 
+            <td class="caldateopen">4</td>
+        </tr>
+         <tr>
+            
+            <td class="caldateopen">5</td>
+            <td class="caldateopen">6</td>
+            <td class="caldateopen">7</td>
+            <td class="caldateopen">8</td> 
+            <td class="caldateopen">9</td>
+            <td class="caldateopen">10</td> 
+            <td class="caldateopen">11</td>
+        </tr>
+         <tr>
+            
+            <td class="caldateopen">12</td>
+            <td class="caldateopen">13</td>
+            <td class="caldateopen">14</td>
+            <td class="caldateopen">15</td> 
+            <td class="caldateopen">16</td>
+            <td class="caldateopen">17</td> 
+            <td class="caldateopen">18</td>
+        </tr>
+         <tr>
+            
+            <td class="caldateopen">19</td>
+            <td class="caldateopen">20</td>
+            <td class="caldateopen">21</td>
+            <td class="caldateopen">22</td> 
+            <td class="caldateopen">23</td>
+            <td class="caldateopen">24</td> 
+            <td class="caldatetaken">25</td>
+        </tr>
+        <tr>
+            
+            <td class="caldateopen">26</td>
+            <td class="caldateopen">27</td>
+            <td class="caldateopen">28</td>
+            <td class="caldateopen">29</td>
+            <td class="caldateopen">30</td>
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td>
+        </tr>
+    </table>
+    <!--may-->
+    <table class="calender" id="may26" border="1" hidden>
+        <tr>
+            <td class="calmonth" colspan="7">MAY 2026</td>
+        </tr>
+        <tr>
+            <td class="caldays">S</td>
+            <td class="caldays">M</td>
+            <td class="caldays">T</td>
+            <td class="caldays">W</td>
+            <td class="caldays">T</td>
+            <td class="caldays">F</td>
+            <td class="caldays">S</td>
+        </tr>
+         <tr>
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td>
+            <td class="caldateopen">1</td> 
+            <td class="caldateopen">2</td> 
+        </tr>
+         <tr>
+            <td class="caldateopen">3</td> 
+            <td class="caldateopen">4</td>
+            <td class="caldateopen">5</td>
+            <td class="caldateopen">6</td>
+            <td class="caldateopen">7</td>
+            <td class="caldateopen">8</td> 
+            <td class="caldateopen">9</td>
+            
+        </tr>
+         <tr>
+            <td class="caldateopen">10</td> 
+            <td class="caldateopen">11</td>
+            <td class="caldateopen">12</td>
+            <td class="caldateopen">13</td>
+            <td class="caldateopen">14</td>
+            <td class="caldateopen">15</td> 
+            <td class="caldateopen">16</td>
+            
+        </tr>
+         <tr>
+            <td class="caldateopen">17</td> 
+            <td class="caldateopen">18</td>
+            <td class="caldateopen">19</td>
+            <td class="caldateopen">20</td>
+            <td class="caldateopen">21</td>
+            <td class="caldateopen">22</td> 
+            <td class="caldateopen">23</td>
+            
+        </tr>
+        <tr>
+            <td class="caldateopen">24</td> 
+            <td class="caldateopen">25</td>
+            <td class="caldateopen">26</td>
+            <td class="caldateopen">27</td>
+            <td class="caldateopen">28</td>
+            <td class="caldateopen">29</td>
+            <td class="caldateopen">30</td>
+            
+        </tr>
+        <tr>
+            <td class="caldateopen">31</td> 
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td> 
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td>
+        </tr>
+    </table>
+    <!--june-->
+    <table class="calender" id="jun26" border="1" hidden>
+        <tr>
+            <td class="calmonth" colspan="7">JUNE 2026</td>
+        </tr>
+        <tr>
+            <td class="caldays">S</td>
+            <td class="caldays">M</td>
+            <td class="caldays">T</td>
+            <td class="caldays">W</td>
+            <td class="caldays">T</td>
+            <td class="caldays">F</td>
+            <td class="caldays">S</td>
+        </tr>
+         <tr>
+            <td class="caldateopen"></td>
+            <td class="caldateopen">1</td> 
+            <td class="caldateopen">2</td>
+            <td class="caldateopen">3</td> 
+            <td class="caldateopen">4</td>
+            <td class="caldateopen">5</td>
+            <td class="caldateopen">6</td>
+            
+        </tr>
+         <tr>
+            <td class="caldateopen">7</td>
+            <td class="caldateopen">8</td> 
+            <td class="caldateopen">9</td>
+            <td class="caldateopen">10</td> 
+            <td class="caldateopen">11</td>
+            <td class="caldateopen">12</td>
+            <td class="caldateopen">13</td>
+            
+        </tr>
+         <tr>
+            <td class="caldateopen">14</td>
+            <td class="caldateopen">15</td> 
+            <td class="caldateopen">16</td>
+            <td class="caldateopen">17</td> 
+            <td class="caldateopen">18</td>
+            <td class="caldateopen">19</td>
+            <td class="caldateopen">20</td>
+            
+        </tr>
+         <tr>
+            <td class="caldateopen">21</td>
+            <td class="caldateopen">22</td> 
+            <td class="caldateopen">23</td>
+            <td class="caldateopen">24</td> 
+            <td class="caldateopen">25</td>
+            <td class="caldateopen">26</td>
+            <td class="caldateopen">27</td>
+            
+        </tr>
+        <tr>
+            <td class="caldateopen">28</td>
+            <td class="caldateopen">29</td> 
+            <td class="caldateopen">30</td>
+            <td class="caldateopen"></td> 
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td>
+        </tr>
+    </table>
+    <!--july-->
+    <table class="calender" id="jul26" border="1" hidden>
+        <tr>
+            <td class="calmonth" colspan="7">JULY 2026</td>
+        </tr>
+        <tr>
+            <td class="caldays">S</td>
+            <td class="caldays">M</td>
+            <td class="caldays">T</td>
+            <td class="caldays">W</td>
+            <td class="caldays">T</td>
+            <td class="caldays">F</td>
+            <td class="caldays">S</td>
+        </tr>
+         <tr>
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td>
+            <td class="caldateopen">1</td> 
+            <td class="caldateopen">2</td>
+            <td class="caldateopen">3</td> 
+            <td class="caldateopen">4</td>
+        </tr>
+         <tr>
+            
+            <td class="caldateopen">5</td>
+            <td class="caldateopen">6</td>
+            <td class="caldateopen">7</td>
+            <td class="caldateopen">8</td> 
+            <td class="caldateopen">9</td>
+            <td class="caldateopen">10</td> 
+            <td class="caldateopen">11</td>
+        </tr>
+         <tr>
+            
+            <td class="caldateopen">12</td>
+            <td class="caldateopen">13</td>
+            <td class="caldateopen">14</td>
+            <td class="caldateopen">15</td> 
+            <td class="caldateopen">16</td>
+            <td class="caldateopen">17</td> 
+            <td class="caldateopen">18</td>
+        </tr>
+         <tr>
+            
+            <td class="caldateopen">19</td>
+            <td class="caldateopen">20</td>
+            <td class="caldateopen">21</td>
+            <td class="caldateopen">22</td> 
+            <td class="caldateopen">23</td>
+            <td class="caldateopen">24</td> 
+            <td class="caldateopen">25</td>
+        </tr>
+        <tr>
+            
+            <td class="caldateopen">26</td>
+            <td class="caldateopen">27</td>
+            <td class="caldateopen">28</td>
+            <td class="caldateopen">29</td>
+            <td class="caldateopen">30</td>
+            <td class="caldateopen">31</td>
+            <td class="caldateopen"></td>
+        </tr>
+    </table>
+    <!--august-->
+    <table class="calender" id="aug26" border="1" hidden>
+        <tr>
+            <td class="calmonth" colspan="7">AUGUST 2026</td>
+        </tr>
+        <tr>
+            <td class="caldays">S</td>
+            <td class="caldays">M</td>
+            <td class="caldays">T</td>
+            <td class="caldays">W</td>
+            <td class="caldays">T</td>
+            <td class="caldays">F</td>
+            <td class="caldays">S</td>
+        </tr>
+         <tr>
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td>
+            <td class="caldateopen">1</td> 
+            
+        </tr>
+         <tr>
+            <td class="caldateopen">2</td>
+            <td class="caldateopen">3</td> 
+            <td class="caldateopen">4</td>
+            <td class="caldateopen">5</td>
+            <td class="caldateopen">6</td>
+            <td class="caldateopen">7</td>
+            <td class="caldateopen">8</td> 
+            
+        </tr>
+         <tr>
+            <td class="caldateopen">9</td>
+            <td class="caldateopen">10</td> 
+            <td class="caldateopen">11</td>
+            <td class="caldateopen">12</td>
+            <td class="caldateopen">13</td>
+            <td class="caldateopen">14</td>
+            <td class="caldateopen">15</td> 
+            
+        </tr>
+         <tr>
+            <td class="caldateopen">16</td>
+            <td class="caldateopen">17</td> 
+            <td class="caldateopen">18</td>
+            <td class="caldateopen">19</td>
+            <td class="caldateopen">20</td>
+            <td class="caldateopen">21</td>
+            <td class="caldateopen">22</td> 
+            
+        </tr>
+        <tr>
+            <td class="caldateopen">23</td>
+            <td class="caldateopen">24</td> 
+            <td class="caldateopen">25</td>
+            <td class="caldateopen">26</td>
+            <td class="caldateopen">27</td>
+            <td class="caldateopen">28</td>
+            <td class="caldateopen">29</td>
+        </tr>
+        <tr>
+            <td class="caldateopen">30</td>
+            <td class="caldateopen">31</td> 
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td>
+        </tr>
+    </table>
+    <!--september-->
+    <table class="calender" id="sep26" border="1" hidden>
+        <tr>
+            <td class="calmonth" colspan="7">SEPTEMBER 2026</td>
+        </tr>
+        <tr>
+            <td class="caldays">S</td>
+            <td class="caldays">M</td>
+            <td class="caldays">T</td>
+            <td class="caldays">W</td>
+            <td class="caldays">T</td>
+            <td class="caldays">F</td>
+            <td class="caldays">S</td>
+        </tr>
+         <tr>
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td>
+            <td class="caldateopen">1</td> 
+            <td class="caldateopen">2</td>
+            <td class="caldateopen">3</td> 
+            <td class="caldateopen">4</td>
+            <td class="caldateopen">5</td>
+            
+        </tr>
+         <tr>
+            <td class="caldateopen">6</td>
+            <td class="caldateopen">7</td>
+            <td class="caldateopen">8</td> 
+            <td class="caldateopen">9</td>
+            <td class="caldateopen">10</td> 
+            <td class="caldateopen">11</td>
+            <td class="caldateopen">12</td>
+            
+        </tr>
+         <tr>
+            <td class="caldateopen">13</td>
+            <td class="caldateopen">14</td>
+            <td class="caldateopen">15</td> 
+            <td class="caldateopen">16</td>
+            <td class="caldateopen">17</td> 
+            <td class="caldateopen">18</td>
+            <td class="caldateopen">19</td>
+            
+        </tr>
+         <tr>
+            <td class="caldateopen">20</td>
+            <td class="caldateopen">21</td>
+            <td class="caldateopen">22</td> 
+            <td class="caldateopen">23</td>
+            <td class="caldateopen">24</td> 
+            <td class="caldateopen">25</td>
+            <td class="caldateopen">26</td>
+            
+        </tr>
+        <tr>
+            <td class="caldateopen">27</td>
+            <td class="caldateopen">28</td>
+            <td class="caldateopen">29</td>
+            <td class="caldateopen">30</td>
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td>
+        </tr>
+    </table>
+    <!--october-->
+    <table class="calender" id="oct26" border="1" hidden>
+        <tr>
+            <td class="calmonth" colspan="7">OCTOBER 2026</td>
+        </tr>
+        <tr>
+            <td class="caldays">S</td>
+            <td class="caldays">M</td>
+            <td class="caldays">T</td>
+            <td class="caldays">W</td>
+            <td class="caldays">T</td>
+            <td class="caldays">F</td>
+            <td class="caldays">S</td>
+        </tr>
+         <tr>
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td>
+            <td class="caldateopen">1</td> 
+            <td class="caldateopen">2</td>
+            <td class="caldateopen">3</td> 
+            
+        </tr>
+         <tr>
+            <td class="caldateopen">4</td>
+            <td class="caldateopen">5</td>
+            <td class="caldateopen">6</td>
+            <td class="caldateopen">7</td>
+            <td class="caldateopen">8</td> 
+            <td class="caldateopen">9</td>
+            <td class="caldateopen">10</td> 
+            
+        </tr>
+         <tr>
+            <td class="caldateopen">11</td>
+            <td class="caldateopen">12</td>
+            <td class="caldateopen">13</td>
+            <td class="caldateopen">14</td>
+            <td class="caldateopen">15</td> 
+            <td class="caldateopen">16</td>
+            <td class="caldateopen">17</td> 
+            
+        </tr>
+         <tr>
+            <td class="caldateopen">18</td>
+            <td class="caldateopen">19</td>
+            <td class="caldateopen">20</td>
+            <td class="caldateopen">21</td>
+            <td class="caldateopen">22</td> 
+            <td class="caldateopen">23</td>
+            <td class="caldateopen">24</td> 
+            
+        </tr>
+        <tr>
+            <td class="caldateopen">25</td>
+            <td class="caldateopen">26</td>
+            <td class="caldateopen">27</td>
+            <td class="caldateopen">28</td>
+            <td class="caldateopen">29</td>
+            <td class="caldateopen">30</td>
+            <td class="caldateopen">31</td>
+        </tr>
+    </table>
+    <!--november-->
+    <table class="calender" id="nov26" border="1" hidden>
+        <tr>
+            <td class="calmonth" colspan="7">NOVEMBER 2026</td>
+        </tr>
+        <tr>
+            <td class="caldays">S</td>
+            <td class="caldays">M</td>
+            <td class="caldays">T</td>
+            <td class="caldays">W</td>
+            <td class="caldays">T</td>
+            <td class="caldays">F</td>
+            <td class="caldays">S</td>
+        </tr>
+         <tr>
+            <td class="caldateopen">1</td> 
+            <td class="caldateopen">2</td>
+            <td class="caldateopen">3</td> 
+            <td class="caldateopen">4</td>
+            <td class="caldateopen">5</td>
+            <td class="caldateopen">6</td>
+            <td class="caldateopen">7</td>
+        </tr>
+         <tr>
+            <td class="caldateopen">8</td> 
+            <td class="caldateopen">9</td>
+            <td class="caldateopen">10</td> 
+            <td class="caldateopen">11</td>
+            <td class="caldateopen">12</td>
+            <td class="caldateopen">13</td>
+            <td class="caldateopen">14</td>
+        </tr>
+         <tr>
+            <td class="caldateopen">15</td> 
+            <td class="caldateopen">16</td>
+            <td class="caldateopen">17</td> 
+            <td class="caldateopen">18</td>
+            <td class="caldateopen">19</td>
+            <td class="caldateopen">20</td>
+            <td class="caldateopen">21</td>
+        </tr>
+         <tr>
+            <td class="caldateopen">22</td> 
+            <td class="caldateopen">23</td>
+            <td class="caldateopen">24</td> 
+            <td class="caldateopen">25</td>
+            <td class="caldateopen">26</td>
+            <td class="caldateopen">27</td>
+            <td class="caldateopen">28</td>
+        </tr>
+        <tr>
+            <td class="caldateopen">29</td> 
+            <td class="caldateopen">30</td>
+            <td class="caldateopen"></td> 
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td>
+        </tr>
+    </table>
+    <!--december-->
+    <table class="calender" id="dec26" border="1" hidden>
+        <tr>
+            <td class="calmonth" colspan="7">DECEMBER 2026</td>
+        </tr>
+        <tr>
+            <td class="caldays">S</td>
+            <td class="caldays">M</td>
+            <td class="caldays">T</td>
+            <td class="caldays">W</td>
+            <td class="caldays">T</td>
+            <td class="caldays">F</td>
+            <td class="caldays">S</td>
+        </tr>
+         <tr>
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td>
+            <td class="caldateopen">1</td> 
+            <td class="caldateopen">2</td>
+            <td class="caldateopen">3</td> 
+            <td class="caldateopen">4</td>
+            <td class="caldateopen">5</td>
+        </tr>
+         <tr>
+            <td class="caldateopen">6</td>
+            <td class="caldateopen">7</td>
+            <td class="caldateopen">8</td> 
+            <td class="caldateopen">9</td>
+            <td class="caldateopen">10</td> 
+            <td class="caldateopen">11</td>
+            <td class="caldateopen">12</td>
+            
+        </tr>
+         <tr>
+            <td class="caldateopen">13</td>
+            <td class="caldateopen">14</td>
+            <td class="caldateopen">15</td> 
+            <td class="caldateopen">16</td>
+            <td class="caldateopen">17</td> 
+            <td class="caldateopen">18</td>
+            <td class="caldateopen">19</td>
+            
+        </tr>
+         <tr>
+            <td class="caldateopen">20</td>
+            <td class="caldateopen">21</td>
+            <td class="caldateopen">22</td> 
+            <td class="caldateopen">23</td>
+            <td class="caldateopen">24</td> 
+            <td class="caldateopen">25</td>
+            <td class="caldateopen">26</td>
+            
+        </tr>
+        <tr>
+            <td class="caldateopen">27</td>
+            <td class="caldateopen">28</td>
+            <td class="caldateopen">29</td>
+            <td class="caldateopen">30</td>
+            <td class="caldateopen">31</td> 
+            <td class="caldateopen"></td>
+            <td class="caldateopen"></td> 
+           
+        </tr>
+    </table>
+
       
     <script src="hideAndShow.js"></script>
+    <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
 
+    for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+        content.style.display = "none";
+        } else {
+        content.style.display = "block";
+        }
+    });
+    }
+    </script>
+
+      <!--media links-->
+    <div class="contacts">
+        <div class="contactsimg">
+            <h5>Clink The Links And Follow Us!!!</h5>
+            <a href="https://www.tiktok.com/@jsr_fhds" target="_blank"><img src="png/tiktok logo.png"  width="10%"/></a>
+            <a href="https://www.facebook.com/share/1JHaLHh9P1/" target="_blank"><img src="png/fb logo.png"  width="15%"/></a>
+            <a href="#"><img src="png/youtube logo.png"  width="15%"/></a>
+        </div>
+    </div>
 </body>
 </html>

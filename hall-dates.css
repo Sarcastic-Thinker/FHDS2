@@ -59,7 +59,7 @@ h4 {
       color: rgb(179, 48, 48);
 }
 .sidebar{
-      text-align: center;
+      text-align:left;
       padding: 5px;
       margin: auto;
       color: rgb(97, 0, 100) !important;
@@ -67,7 +67,7 @@ h4 {
 .button{
  
       width: 100;
-      background-color: rgba(204, 93, 238, 0.753);
+      background-color: none;
       text-decoration : none;
       text-align  : center;
       color       : rgb(17, 14, 0);
@@ -87,16 +87,23 @@ h4 {
   transform: translateY(4px);
 }
 
-.container {
+.container1 {
     max-width: 800px;
     margin: 0 auto;
-    background: linear-gradient(135deg, rgb(253, 14, 201) 0%, rgb(255, 0, 34) 100%);
+    background: linear-gradient(135deg, rgb(253, 14, 201) 0%, rgb(223, 68, 202) 100%);
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     overflow: hidden;
 }
+.container1 td {
+    width: 40px;
+    height: 10px;
+    margin: 0 auto;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
 
-.content {
+.contents {
     padding: 30px;
 }
 
@@ -111,4 +118,39 @@ h4 {
       width: 750px;
       align-items: center;
       text-align: center;
+}
+
+
+/*====hall info====*/
+.collapsible {
+  background-color: #5aac79;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #77ce66;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #77ce66;
+}
+
+h2{
+      font-style: italic;
+      text-align: center;
+      color: blueviolet;
+}
+h2 .a{
+      text-emphasis: none;
+
 }
